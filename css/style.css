@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    padding: 10px;
+    margin: 5px;
+}
+body {
+    background: linear-gradient(to right, darkblue, lightblue);
+}
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 40px 20px 50px 17px  rgba(2, 4, 19, 0.8);
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 5%;
+}
+
+li {
+    list-style: none;
+    margin: auto;
+}
+
+h5 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(11, 9, 119, 0.301);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color:rgba(46, 17, 207, 0.8);
+    color: whitesmoke;
+}
+
+input, button {
+    border-radius: 10px;
+}
+
